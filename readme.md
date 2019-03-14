@@ -1,1 +1,1 @@
-This is just me practicing some codility problems
+This is just me practicing some coding problems
