@@ -9,7 +9,11 @@ package solution
 
 func Solution(A []int, K int) []int {
     // write your code in Go 1.4
-    for len(A) < K {
+    if len(A) == 0 {
+        return A
+    }
+    
+    for len(A) < K  {
         K = K - len(A)
     }
     
